@@ -4,7 +4,7 @@ import { assignTasks } from "./algorithms/task-assignment"
 // Base URL for the Drogon C++ backend
 // const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8080/api"
 
-const API_BASE_URL = "http://localhost:8080/api"
+const API_BASE_URL = "http://localhost:5000/api"
 
 // Fetch all tasks from the backend
 export async function fetchTasks(): Promise<Task[]> {
