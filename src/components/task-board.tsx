@@ -265,7 +265,7 @@ export default function TaskBoard({ tasks, users, isLoading }: TaskBoardProps) {
       <DragDropContext onDragEnd={onDragEnd}>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {Object.values(columns).map((column) => (
-            <div key={column.id} className="flex flex-col h-full">
+            <div key={column.id} className="flex flex-col h-full border border-muted/40 rounded-lg p-4">
               <h3 className="text-lg font-medium mb-4 px-1">{column.title}</h3>
               <Droppable droppableId={column.id}>
                 {(provided) => (

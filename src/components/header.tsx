@@ -22,7 +22,7 @@ export function Header() {
               <path d="M15 6v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3V6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3" />
             </svg>
           </div>
-          <span className="text-xl">Notion Tasks</span>
+          <span className="text-xl">Jira Advanced</span>
         </Link>
         <div className="ml-auto flex items-center gap-2">
           <div className="relative hidden md:block">
